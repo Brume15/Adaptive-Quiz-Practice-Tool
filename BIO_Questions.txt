@@ -1,0 +1,167 @@
+EASY
+What is the basic unit of life?
+A: Tissue | B: Organ | C: Cell | D: System
+C
+Cell Biology
+
+EASY
+Which organelle is known as the “powerhouse of the cell”?
+A: Nucleus | B: Ribosome | C: Mitochondria | D: Golgi apparatus
+C
+Cell Organelles
+
+EASY
+What do plants use to make their own food?
+A: Respiration | B: Photosynthesis | C: Digestion | D: Fermentation
+B
+Photosynthesis
+
+EASY
+Which gas do plants take in during photosynthesis?
+A: Oxygen | B: Nitrogen | C: Carbon dioxide | D: Hydrogen
+C
+Photosynthesis
+
+EASY
+What molecule carries genetic information?
+A: RNA | B: Protein | C: Lipid | D: DNA
+D
+Genetics
+
+EASY
+Which organ pumps blood through the body?
+A: Brain | B: Heart | C: Lungs | D: Liver
+B
+Human Biology
+
+EASY
+What system helps humans breathe?
+A: Digestive | B: Circulatory | C: Respiratory | D: Nervous
+C
+Human Biology
+
+EASY
+Which macromolecule is mainly used for energy?
+A: Proteins | B: Lipids | C: Carbohydrates | D: Nucleic acids
+C
+Macromolecules
+
+EASY
+What do herbivores eat?
+A: Meat | B: Plants | C: Both | D: Decomposers
+B
+Ecology
+
+EASY
+Which kingdom do humans belong to?
+A: Plantae | B: Fungi | C: Protista | D: Animalia
+D
+Classification
+
+MEDIUM
+Where does photosynthesis occur in plant cells?
+A: Mitochondria | B: Chloroplast | C: Nucleus | D: Vacuole
+B
+Photosynthesis
+
+MEDIUM
+What is the function of ribosomes?
+A: Energy production | B: Protein synthesis | C: Waste removal | D: Cell division
+B
+Cell Organelles
+
+MEDIUM
+Which base pairs with adenine in DNA?
+A: Cytosine | B: Guanine | C: Thymine | D: Uracil
+C
+Genetics
+
+MEDIUM
+What type of blood cell fights infections?
+A: Red blood cell | B: Platelet | C: White blood cell | D: Plasma
+C
+Human Biology
+
+MEDIUM
+Which process produces gametes?
+A: Mitosis | B: Meiosis | C: Fertilization | D: Replication
+B
+Cell Division
+
+MEDIUM
+What is the main function of the large intestine?
+A: Nutrient absorption | B: Protein digestion | C: Water absorption | D: Enzyme production
+C
+Human Biology
+
+MEDIUM
+Which level of organization comes after tissues?
+A: Cells | B: Organs | C: Organ systems | D: Organisms
+B
+Organization
+
+MEDIUM
+What term describes organisms that make their own food?
+A: Heterotrophs | B: Decomposers | C: Autotrophs | D: Consumers
+C
+Ecology
+
+MEDIUM
+Which enzyme breaks down carbohydrates in the mouth?
+A: Pepsin | B: Lipase | C: Amylase | D: Trypsin
+C
+Digestion
+
+MEDIUM
+What structure controls what enters and leaves the cell?
+A: Cell wall | B: Cell membrane | C: Cytoplasm | D: Nucleus
+B
+Cell Biology
+
+HARD
+Which phase of mitosis do chromosomes line up at the center of the cell?
+A: Prophase | B: Metaphase | C: Anaphase | D: Telophase
+B
+Cell Division
+
+HARD
+What is the correct sequence of organization in living things?
+A: Cell → tissue → organ → organ system |B: Tissue → cell → organ → system | C: Organ → tissue → cell → system | D: Cell → organ → tissue → system
+A
+Organization
+
+HARD
+Which molecule carries amino acids to the ribosome?
+A: mRNA | B: rRNA | C: tRNA | D: DNA
+C
+Protein Synthesis
+
+HARD
+What type of mutation changes a single nucleotide?
+A: Frameshift | B: Chromosomal | C: Point mutation | D: Deletion
+C
+Genetics
+
+HARD
+Which part of the brain controls balance and coordination?
+A: Cerebrum | B: Medulla | C: Cerebellum | D: Hypothalamus
+C
+Nervous System
+
+HARD
+What process maintains internal balance in the body?
+A: Metabolism | B: Homeostasis | C: Digestion | D: Adaptation
+B
+Human Biology
+
+HARD
+Which cycle describes the movement of water through ecosystems?
+A: Carbon cycle | B: Nitrogen cycle | C: Water cycle | D: Oxygen cycle
+C
+Ecology
+
+HARD
+Which organelle modifies and packages proteins for transport?
+A: Ribosome | B: Endoplasmic reticulum | C: Golgi apparatus | D: Lysosome
+C
+Cell Organelles

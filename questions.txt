@@ -1,0 +1,167 @@
+EASY
+What is 4 + 9?
+A: 12 | B: 13 | C: 14 | D: 15
+B
+Addition
+
+EASY
+What is 7 + 6?
+A: 11 | B: 12 | C: 13 | D: 14
+C
+Addition
+
+EASY
+What is 15 - 8?
+A: 6 | B: 7 | C: 8 | D: 9
+B
+Subtraction
+
+EASY
+What is 20 - 9?
+A: 9 | B: 10 | C: 11 | D: 12
+C
+Subtraction
+
+EASY
+What is 6 * 5?
+A: 25 | B: 30 | C: 35 | D: 40
+B
+Multiplication
+
+EASY
+What is 8 * 4?
+A: 28 | B: 30 | C: 32 | D: 36
+C
+Multiplication
+
+EASY
+What is 24 / 6?
+A: 3 | B: 4 | C: 5 | D: 6
+B
+Division
+
+EASY
+What is 30 / 5?
+A: 4 | B: 5 | C: 6 | D: 7
+C
+Division
+
+EASY
+What is 3^2?
+A: 6 | B: 9 | C: 12 | D: 15
+B
+Exponents
+
+EASY
+What is 5^2?
+A: 20 | B: 25 | C: 30 | D: 35
+B
+Exponents
+
+MEDIUM
+What is 10 + 12 / 4?
+A: 13 | B: 14 | C: 16 | D: 18
+A
+Order of Operations
+
+MEDIUM
+What is 18 - 8 * 2?
+A: 2 | B: 4 | C: 6 | D: 10
+A
+Order of Operations
+
+MEDIUM
+What is (6 + 4) * 3?
+A: 20 | B: 25 | C: 30 | D: 35
+C
+Parentheses
+
+MEDIUM
+What is (20 - 8) / 2?
+A: 4 | B: 5 | C: 6 | D: 7
+C
+Parentheses
+
+MEDIUM
+What is 1/2 of 14?
+A: 6 | B: 7 | C: 8 | D: 9
+B
+Fractions
+
+MEDIUM
+What is 3/4 of 24?
+A: 16 | B: 18 | C: 20 | D: 22
+B
+Fractions
+
+MEDIUM
+What is 6 * 4 + 5?
+A: 24 | B: 26 | C: 29 | D: 30
+C
+Mixed Arithmetic
+
+MEDIUM
+What is 40 / 5 - 3?
+A: 3 | B: 4 | C: 5 | D: 6
+C
+Mixed Arithmetic
+
+MEDIUM
+If x = 4, what is x^2?
+A: 8 | B: 12 | C: 16 | D: 20
+C
+Algebra
+
+MEDIUM
+If x = 5, what is 2x?
+A: 8 | B: 9 | C: 10 | D: 12
+C
+Algebra
+
+HARD
+What is 7^2 + 6?
+A: 49 | B: 52 | C: 55 | D: 57
+C
+Exponents
+
+HARD
+What is 3^3 + 2?
+A: 11 | B: 17 | C: 29 | D: 35
+C
+Exponents
+
+HARD
+What is 24 / 6 + 9 * 2?
+A: 20 | B: 21 | C: 22 | D: 23
+C
+Order of Operations
+
+HARD
+What is (8 + 4) * (10 - 7)?
+A: 30 | B: 36 | C: 42 | D: 48
+B
+Parentheses
+
+HARD
+What is 5/8 of 32?
+A: 18 | B: 20 | C: 22 | D: 24
+B
+Fractions
+
+HARD
+What is 9 * 4 - 11?
+A: 23 | B: 25 | C: 27 | D: 29
+B
+Mixed Arithmetic
+
+HARD
+If x = 3, what is 3x^2?
+A: 18 | B: 21 | C: 27 | D: 36
+C
+Algebra
+
+HARD
+If x = 7, what is 2x - 5?
+A: 7 | B: 8 | C: 9 | D: 10
+C
+Algebra

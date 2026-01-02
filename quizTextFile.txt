@@ -1,0 +1,179 @@
+Topic: Math
+QUESTION: What is 2 + 2?
+A) 1
+B) 2
+C) 4
+D) 5
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: Math
+QUESTION: What is 15 / 3?
+A) 3
+B) 4
+C) 5
+D) 6
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: Math
+QUESTION: What is the square root of 49?
+A) 5
+B) 6
+C) 7
+D) 8
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: Geography
+QUESTION: Capital of Pakistan?
+A) Lahore
+B) Islamabad
+C) Karachi
+D) Peshawar
+ANSWER: B
+DIFFICULTY: EASY
+
+Topic: Geography
+QUESTION: Capital of France?
+A) Rome
+B) Madrid
+C) Berlin
+D) Paris
+ANSWER: D
+DIFFICULTY: EASY
+
+Topic: Geography
+QUESTION: Which continent is Pakistan in?
+A) Europe
+B) Africa
+C) Asia
+D) Australia
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: Computer Science
+QUESTION: Who is known as the Father of Computers?
+A) Alan Turing
+B) Charles Babbage
+C) Bill Gates
+D) Steve Jobs
+ANSWER: B
+DIFFICULTY: EASY
+
+Topic: Computer Science
+QUESTION: What does CPU stand for?
+A) Central Power Unit
+B) Central Processing Unit
+C) Computer Personal Unit
+D) Control Processing Unit
+ANSWER: B
+DIFFICULTY: EASY
+
+Topic: Computer Science
+QUESTION: Which language is primarily used for web styling?
+A) HTML
+B) Python
+C) CSS
+D) C++
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: History
+QUESTION: Who was the first President of the USA?
+A) Abraham Lincoln
+B) Thomas Jefferson
+C) George Washington
+D) John Adams
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: History
+QUESTION: In which year did World War II end?
+A) 1940
+B) 1942
+C) 1945
+D) 1950
+ANSWER: C
+DIFFICULTY: MEDIUM
+
+Topic: History
+QUESTION: Who discovered America?
+A) Marco Polo
+B) Vasco da Gama
+C) Christopher Columbus
+D) Ferdinand Magellan
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: Science
+QUESTION: Which planet is known as the Red Planet?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: Science
+QUESTION: What gas do plants absorb from the atmosphere?
+A) Oxygen
+B) Carbon Dioxide
+C) Nitrogen
+D) Hydrogen
+ANSWER: B
+DIFFICULTY: EASY
+
+Topic: Science
+QUESTION: What is H2O commonly known as?
+A) Salt
+B) Oxygen
+C) Hydrogen
+D) Water
+ANSWER: D
+DIFFICULTY: EASY
+
+Topic: Programming
+QUESTION: Which language is used for Android development?
+A) Swift
+B) Java
+C) Ruby
+D) PHP
+ANSWER: B
+DIFFICULTY: EASY
+
+Topic: Programming
+QUESTION: Which symbol is used to end a statement in C++?
+A) :
+B) .
+C) ;
+D) ,
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: Programming
+QUESTION: What does OOP stand for?
+A) Object Oriented Programming
+B) Open Operation Process
+C) Output Oriented Program
+D) Object Operating Platform
+ANSWER: A
+DIFFICULTY: MEDIUM
+
+Topic: Sports
+QUESTION: How many players are on a soccer team (on field)?
+A) 9
+B) 10
+C) 11
+D) 12
+ANSWER: C
+DIFFICULTY: EASY
+
+Topic: Sports
+QUESTION: Which sport uses a racket and shuttlecock?
+A) Tennis
+B) Badminton
+C) Squash
+D) Table Tennis
+ANSWER: B
+DIFFICULTY: EASY

@@ -5,22 +5,32 @@
 #include <vector>
 #include <map>
 
-using namespace std;
+// Forward declaration
+std::map<std::string, std::vector<class Question>> fetch_file_Question(const std::string &file_name);
 
 class Question
 {
-public:
-    string text;
-    vector<string> choices;
+private:
+    std::string text;
+    std::vector<std::string> choices;
     int correctIndex;
-    string difficulty;
+    std::string difficulty;
+    std::string topic;
 
-    Question();
+public:
+    Question(); // default constructor
+    Question(std::string t,
+             std::vector<std::string> c,
+             int correct,
+             std::string d,
+             std::string topic);
 
-    void user_Interest_topic() const;
     void displayQuestion() const;
     bool checkQuestion(int userIndex) const;
+
+    std::string getTopic() const;
+
+    friend std::map<std::string, std::vector<Question>> fetch_file_Question(const std::string &file_name);
 };
-// FILE LOADER (NOT a class member)
-map<string, vector<Question>> fetch_file_Question(const string &file_name);
+
 #endif

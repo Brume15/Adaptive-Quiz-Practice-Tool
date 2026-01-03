@@ -16,8 +16,8 @@ public:
     string difficulty;
 
     Question();
-    Question(string t, vector<string> c, int correct, string d);
-    string user_Interest_topic() const;
+
+    void user_Interest_topic() const;
     void displayQuestion() const;
     bool checkQuestion(int userIndex) const;
 };

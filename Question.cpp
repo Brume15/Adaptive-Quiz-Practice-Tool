@@ -7,9 +7,6 @@ using namespace std;
 
 Question::Question() {}
 
-Question::Question(string t, vector<string> c, int correct, string d)
-    : text(t), choices(c), correctIndex(correct), difficulty(d) {}
-
 map<string, vector<Question>> fetch_file_Question(const string &file_name)
 {
     ifstream file(file_name);
@@ -53,54 +50,93 @@ map<string, vector<Question>> fetch_file_Question(const string &file_name)
 
     return bank;
 }
-std::string Question::user_Interest_topic()
+map<string, vector<Question>> bank =
+    fetch_file_Question("quizTextFile.txt");
+const vector<Question> math_quiz = bank["Math"];
+const vector<Question> cs_quiz = bank["Computer Science"];
+const vector<Question> history_quiz = bank["History"];
+const vector<Question> science_quiz = bank["Science"];
+const vector<Question> programming_quiz = bank["Programming"];
+const vector<Question> sports_quiz = bank["Sports"];
+const vector<Question> geography_quiz = bank["Geography"];
+
+void Question::user_Interest_topic() const
 {
-    //     cout << "Topic of interest: " << text << endl;
-    //     cout << "Topics available: " << endl;
-    //     cout << "1) Math" << endl;
-    //     cout << "2) Computer Science" << endl;
-    //     cout << "3) History" << endl;
-    //     cout << "4) Geography" << endl;
-    //     cout << "5) Programming" << endl;
-    //     cout << "6) Science" << endl;
-    //     cout << "7) Sports" << endl;
+    cout << "Topic of interest: " << text << endl;
+    cout << "Topics available: " << endl;
+    cout << "1) Math" << endl;
+    cout << "2) Computer Science" << endl;
+    cout << "3) History" << endl;
+    cout << "4) Geography" << endl;
+    cout << "5) Programming" << endl;
+    cout << "6) Science" << endl;
+    cout << "7) Sports" << endl;
 
     string user_topic;
     cout << "Enter your topic of interest: ";
     getline(cin, user_topic);
     cout << "You selected: " << user_topic << endl;
+    cout << "Topic Based Quiz Questions:\n";
     if (user_topic == "Math")
     {
-        return "Math";
+        for (const auto &question : math_quiz)
+        {
+            question.displayQuestion();
+            cout << endl;
+        }
     }
     else if (user_topic == "Computer Science")
     {
-        return "Computer Science";
+        for (const auto &question : cs_quiz)
+        {
+            question.displayQuestion();
+            cout << endl;
+        }
     }
     else if (user_topic == "History")
     {
-        return "History";
-    }
-    else if (user_topic == "Geography")
-    {
-        return "Geography";
-    }
-    else if (user_topic == "Programming")
-    {
-        return "Programming";
+        for (const auto &question : history_quiz)
+        {
+            question.displayQuestion();
+            cout << endl;
+        }
     }
     else if (user_topic == "Science")
     {
-        return "Science";
+        for (const auto &question : science_quiz)
+        {
+            question.displayQuestion();
+            cout << endl;
+        }
+    }
+    else if (user_topic == "Programming")
+    {
+        for (const auto &question : programming_quiz)
+        {
+            question.displayQuestion();
+            cout << endl;
+        }
     }
     else if (user_topic == "Sports")
     {
-        return "Sports";
+        for (const auto &question : sports_quiz)
+        {
+            question.displayQuestion();
+            cout << endl;
+        }
     }
+    else if (user_topic == "Geography")
+    {
+        for (const auto &question : geography_quiz)
+        {
+            question.displayQuestion();
+            cout << endl;
+        }
+    }
+
     else
     {
-        cout << "Invalid topic selected. Defaulting to 'General'.\n";
-        return "General";
+        cout << "No questions available for the selected topic.\n";
     }
 }
 

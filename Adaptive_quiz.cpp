@@ -1,54 +1,12 @@
 #include "Question.h"
+#include "loadingFileQuestions.cpp"
 #include <iostream>
 #include <string>
 #include <fstream>
 #include <map>
 
 using namespace std;
-map<string, vector<Question>> fetch_file_Question(const string &file_name)
-{
-    ifstream open_file(file_name);
-    map<string, vector<Question>> bank;
 
-    if (!open_file)
-    {
-        cout << "File not opening...\n";
-        return bank;
-    }
-
-    string line, currentTopic;
-    Question q;
-
-    while (getline(open_file, line))
-    {
-        if (line.rfind("Topic:", 0) == 0)
-        {
-            q = Question();
-            currentTopic = line.substr(7);
-            q.topic = currentTopic;
-        }
-        else if (line.rfind("QUESTION:", 0) == 0)
-        {
-            q.text = line.substr(10);
-            q.choices.clear();
-        }
-        else if (line.size() > 2 && line[1] == ')')
-        {
-            q.choices.push_back(line.substr(3));
-        }
-        else if (line.rfind("ANSWER:", 0) == 0)
-        {
-            q.correctIndex = line.back() - 'A';
-        }
-        else if (line.rfind("DIFFICULTY:", 0) == 0)
-        {
-            q.difficulty = line.substr(12);
-            bank[currentTopic].push_back(q);
-        }
-    }
-
-    return bank;
-}
 int main()
 {
 

@@ -16,7 +16,7 @@ map<string, vector<Question>> fetch_file_Question(const string &file_name)
         return bank;
     }
 
-    string line, currentTopic;
+    string line, currentTopic, difficulty;
     Question q;
     vector<string> tempChoices;
 
@@ -26,6 +26,7 @@ map<string, vector<Question>> fetch_file_Question(const string &file_name)
         {
             q = Question(); // reset question
             currentTopic = line.substr(7);
+            // cout << "Current Topic: " << currentTopic << endl;
             q.set_topic(currentTopic);
             tempChoices.clear();
         }
@@ -43,11 +44,16 @@ map<string, vector<Question>> fetch_file_Question(const string &file_name)
         }
         else if (line.rfind("DIFFICULTY:", 0) == 0)
         {
+            difficulty = line.substr(12);
+            q.set_difficulty(difficulty);
+            // cout << "difficulty: " << difficulty << endl;
+        }
+        else if (line.empty())
+        {
             q.set_choices(tempChoices);
-            q.set_difficulty(line.substr(12));
             bank[currentTopic].push_back(q);
         }
-    }
+        }
 
     return bank;
 }

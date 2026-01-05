@@ -18,9 +18,12 @@ int main()
     cout << "5) Programming" << endl;
     cout << "6) Science" << endl;
     cout << "7) Sports" << endl;
-    string userTopic;
+    string userTopic, userDifficulty;
+
     cout << "Enter topic: ";
     getline(cin, userTopic);
+    cout << "Enter difficulty (Easy, Medium, Hard): ";
+    getline(cin, userDifficulty);
 
     if (bank.find(userTopic) == bank.end())
     {
@@ -30,17 +33,24 @@ int main()
 
     for (const auto &q : bank[userTopic])
     {
-        q.displayQuestion();
+        for (const auto &q : bank[userDifficulty])
+        {
+            q.displayQuestion();
 
-        int answer;
-        cout << "Your answer: ";
-        cin >> answer;
+            int answer;
+            cout << "Your answer: ";
+            cin >> answer;
 
-        if (q.checkQuestion(answer - 1))
-
-            cout << "Correct!\n\n";
-        else
-            cout << "Wrong!\n\n";
+            if (q.checkQuestion(answer - 1))
+            {
+                cout << "Correct!\n\n";
+                cout << " Difficulty: " << userDifficulty << "\n\n";
+            }
+            else
+            {
+                cout << "Wrong!\n\n";
+            }
+        }
     }
     return 0;
 }

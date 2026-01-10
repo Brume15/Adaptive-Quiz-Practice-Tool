@@ -1,8 +1,10 @@
 #include "Question.h"
+#include "loadingFileQuestions.h"
+
 #include <iostream>
 #include <fstream>
 #include <map>
-
+#include <algorithm>
 using namespace std;
 
 map<string, vector<Question>> fetch_file_Question(const string &file_name)
@@ -26,6 +28,7 @@ map<string, vector<Question>> fetch_file_Question(const string &file_name)
         {
             q = Question(); // reset question
             currentTopic = line.substr(7);
+            transform(currentTopic.begin(), currentTopic.end(), currentTopic.begin(), ::toupper);
             // cout << "Current Topic: " << currentTopic << endl;
             q.set_topic(currentTopic);
             tempChoices.clear();
@@ -47,13 +50,9 @@ map<string, vector<Question>> fetch_file_Question(const string &file_name)
             difficulty = line.substr(12);
             q.set_difficulty(difficulty);
             // cout << "difficulty: " << difficulty << endl;
-        }
-        else if (line.empty())
-        {
             q.set_choices(tempChoices);
             bank[currentTopic].push_back(q);
         }
-        }
-
+    }
     return bank;
 }

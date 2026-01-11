@@ -1,0 +1,188 @@
+Topic: Math
+QUESTION: What is the value of 7² − 5²?
+A) 12
+B) 24
+C) 49
+D) 14
+ANSWER: B
+DIFFICULTY: MEDIUM
+
+Topic: Math
+QUESTION: If x + 3 = 11, what is the value of x?
+A) 6
+B) 7
+C) 8
+D) 9
+ANSWER: C
+DIFFICULTY: MEDIUM
+
+Topic: Math
+QUESTION: What is the derivative of x²?
+A) x
+B) 2x
+C) x²
+D) 2
+ANSWER: B
+DIFFICULTY: HARD
+
+Topic: Geography
+QUESTION: Which country has the largest population in the world?
+A) USA
+B) India
+C) China
+D) Russia
+ANSWER: B
+DIFFICULTY: MEDIUM
+
+Topic: Geography
+QUESTION: Which desert is the largest hot desert in the world?
+A) Gobi
+B) Sahara
+C) Kalahari
+D) Thar
+ANSWER: B
+DIFFICULTY: MEDIUM
+
+Topic: Geography
+QUESTION: Which river is the longest in the world?
+A) Amazon
+B) Nile
+C) Yangtze
+D) Mississippi
+ANSWER: B
+DIFFICULTY: HARD
+
+Topic: Computer Science
+QUESTION: What is the main function of an operating system?
+A) Run applications
+B) Manage hardware and software resources
+C) Compile code
+D) Store data permanently
+ANSWER: B
+DIFFICULTY: MEDIUM
+
+Topic: Computer Science
+QUESTION: Which data structure uses LIFO principle?
+A) Queue
+B) Array
+C) Stack
+D) Linked List
+ANSWER: C
+DIFFICULTY: MEDIUM
+
+Topic: Computer Science
+QUESTION: What is the time complexity of binary search?
+A) O(n)
+B) O(log n)
+C) O(n²)
+D) O(1)
+ANSWER: B
+DIFFICULTY: HARD
+
+Topic: History
+QUESTION: Who was the first Muslim ruler of the Indian subcontinent?
+A) Babur
+B) Mahmud of Ghazni
+C) Muhammad bin Qasim
+D) Aurangzeb
+ANSWER: C
+DIFFICULTY: MEDIUM
+
+Topic: History
+QUESTION: The French Revolution began in which year?
+A) 1776
+B) 1789
+C) 1812
+D) 1848
+ANSWER: B
+DIFFICULTY: MEDIUM
+
+Topic: History
+QUESTION: Which treaty ended World War I?
+A) Treaty of Paris
+B) Treaty of Vienna
+C) Treaty of Versailles
+D) Treaty of Geneva
+ANSWER: C
+DIFFICULTY: HARD
+
+Topic: Science
+QUESTION: What is the chemical symbol for Sodium?
+A) S
+B) So
+C) Na
+D) N
+ANSWER: C
+DIFFICULTY: MEDIUM
+
+Topic: Science
+QUESTION: Which part of the cell controls all activities?
+A) Ribosome
+B) Mitochondria
+C) Nucleus
+D) Cell wall
+ANSWER: C
+DIFFICULTY: MEDIUM
+
+Topic: Science
+QUESTION: What law states that energy cannot be created or destroyed?
+A) Newton’s First Law
+B) Law of Motion
+C) Law of Conservation of Energy
+D) Ohm’s Law
+ANSWER: C
+DIFFICULTY: HARD
+
+Topic: Programming
+QUESTION: Which keyword is used to create an object in C++?
+A) class
+B) object
+C) new
+D) malloc
+ANSWER: C
+DIFFICULTY: MEDIUM
+
+Topic: Programming
+QUESTION: What is the output of: cout << 5 / 2; in C++?
+A) 2
+B) 2.5
+C) 3
+D) Error
+ANSWER: A
+DIFFICULTY: MEDIUM
+
+Topic: Programming
+QUESTION: Which concept allows the same function name to behave differently?
+A) Encapsulation
+B) Inheritance
+C) Polymorphism
+D) Abstraction
+ANSWER: C
+DIFFICULTY: HARD
+
+Topic: Sports
+QUESTION: Which country has won the most FIFA World Cups?
+A) Germany
+B) Argentina
+C) Italy
+D) Brazil
+ANSWER: D
+DIFFICULTY: MEDIUM
+
+Topic: Sports
+QUESTION: How many rings are there on the Olympic flag?
+A) 4
+B) 5
+C) 6
+D) 7
+ANSWER: B
+DIFFICULTY: MEDIUM
+
+Topic: Sports
+QUESTION: In tennis, what is the maximum number of sets in a Grand Slam men’s match?
+A) 3
+B) 4
+C) 5
+D) 6
+ANSWER: C
+DIFFICULTY: HARD

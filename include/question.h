@@ -1,5 +1,5 @@
-#ifndef QUESTION_H
-#define QUESTION_H
+#ifndef question_H
+#define question_H
 
 #include <string>
 #include <vector>

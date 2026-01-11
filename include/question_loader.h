@@ -1,9 +1,9 @@
 // loadingFileQuestions.h
 
-#ifndef loadingQuestions_H
-#define loadingQuestions_H
+#ifndef question_loader_H
+#define question_loader_H
 
-#include "Question.h"
+#include "question.h"
 #include <string>
 #include <vector>
 #include <map>

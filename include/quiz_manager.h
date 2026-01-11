@@ -4,7 +4,7 @@
 #include <map>
 #include <vector>
 #include <string>
-#include "Question.h"
+#include "question.h"
 using namespace std;
 class QuizManaging
 {
@@ -15,7 +15,7 @@ private:
     map<string, int> topicScores;
 
 public:
-    QuizManaging(const vector<Question> &qs) : total_questions(qs), currentScore(0) {}
+    QuizManaging(const vector<Question> &qs) : total_questions(qs), currentScore(0), correctAnswers(0) {}
     void administerQuiz();
     int getScore() const { return currentScore; }
     // map<string, int> getTopicScores() const { return topicScores; }

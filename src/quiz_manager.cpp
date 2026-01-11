@@ -1,6 +1,6 @@
 
-#include "QuizManaging.h"
-#include "Question.h"
+#include "quiz_manager.h"
+#include "question.h"
 #include <iostream>
 using namespace std;
 

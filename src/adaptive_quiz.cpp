@@ -1,7 +1,7 @@
-#include "Question.h"
+#include "question.h"
 // #include "loadingFileQuestions.cpp"
-#include "loadingFileQuestions.h"
-#include "QuizManaging.h"
+#include "question_loader.h"
+#include "quiz_manager.h"
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
 
-    auto bank = fetch_file_Question("quizTextFile.txt");
+    auto bank = fetch_file_Question("data/quiz_questions.txt");
     cout << "bank size: " << bank.size() << endl;
     cout << "Welcome to the Adaptive Quiz!\n";
     cout << "----------------------------------\n";
@@ -53,6 +53,7 @@ int main()
             for (const auto &q : bank[userTopic])
             {
 
+                cout << "Question Topic: " << q.Get_topic() << ", Difficulty: " << q.Get_difficulty() << "\n";
                 if (q.Get_difficulty() == userDifficulty)
                 {
 

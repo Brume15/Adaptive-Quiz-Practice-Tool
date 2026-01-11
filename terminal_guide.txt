@@ -1,0 +1,195 @@
+
+To compile all files:
+
+{   g++ Adaptive_quiz.cpp Question.cpp -o Adaptive_quiz 
+    ./Adaptive_quiz
+}
+
+
+Here is a **clean 1-page Git cheat sheet** you can **paste directly into a `.txt` file** or print.
+Optimized for **student + group project use** (like your Adaptive Quiz).
+
+---
+
+# 🧾 GIT & GITHUB — 1-PAGE CHEAT SHEET
+
+## 🔹 ONE-TIME SETUP
+
+bash
+git config --global user.name "Your Name"
+git config --global user.email "you@email.com"
+git config --list
+
+
+---
+
+## 🔹 START / CONNECT REPO
+
+Initialize repo:
+
+bash
+git init
+
+
+Connect to GitHub repo:
+
+bash
+git remote add origin https://github.com/USERNAME/REPO.git
+git remote -v
+
+
+Clone existing repo:
+
+bash
+git clone https://github.com/USERNAME/REPO.git
+
+
+---
+
+## 🔹 DAILY WORKFLOW (MOST IMPORTANT)
+
+bash
+git status
+git add .
+git commit -m "clear message"
+git push
+
+
+👉 **GitHub updates ONLY after `commit + push`**
+
+---
+
+## 🔹 BRANCH COMMANDS (GROUP PROJECT)
+
+List branches:
+
+bash
+git branch
+
+
+Create new branch:
+
+bash
+git checkout -b branch-name
+
+
+Switch branch:
+
+bash
+git checkout branch-name
+# OR
+git switch branch-name
+
+
+Push branch to GitHub:
+
+bash
+git push -u origin branch-name
+
+
+⚠️ **Do NOT work directly on `main`**
+
+---
+
+## 🔹 WORKING ON YOUR OWN BRANCH
+
+bash
+git checkout asad-code
+git add .
+git commit -m "Implemented question logic"
+git push origin asad-code
+
+
+---
+
+## 🔹 PULL LATEST CHANGES (DO FIRST)
+
+bash
+git pull
+
+
+From main:
+
+bash
+git pull origin main
+
+
+---
+
+## 🔹 TRACK REMOTE BRANCH
+
+bash
+git checkout -b branch-name origin/branch-name
+git branch -vv
+
+
+---
+
+## 🔹 UNDO / FIX MISTAKES
+
+Unstage file:
+
+bash
+git restore --staged filename
+
+
+Undo last commit (keep code):
+
+bash
+git reset --soft HEAD~1
+
+
+Discard file changes:
+
+bash
+git checkout -- filename
+
+
+---
+
+## 🔹 IGNORE FILES (.gitignore)
+
+Example:
+
+
+*.exe
+*.o
+.vscode/
+
+
+Remove tracked file:
+
+bash
+git rm --cached filename
+
+
+---
+
+## 🔹 TEAM WORKFLOW (SUMMARY)
+
+
+git pull
+git checkout your-branch
+code
+git add .
+git commit -m "what you changed"
+git push origin your-branch
+
+
+---
+
+## 🚫 COMMON MISTAKES
+
+❌ Pushing to `main`
+❌ Forgetting `git pull`
+❌ Committing `.exe` files
+❌ Switching branches with uncommitted work
+
+---
+
+## 🧠 GOLDEN RULE
+
+> **One feature = one branch = small commits**
+
+
+

@@ -1,5 +1,5 @@
-#include "Question.h"
-#include "loadingFileQuestions.h"
+#include "question.h"
+#include "question_loader.h"
 
 #include <iostream>
 #include <fstream>
